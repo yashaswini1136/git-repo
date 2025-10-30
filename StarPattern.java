@@ -5,7 +5,7 @@ public class StarPattern {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter number of rows: ");
-        int rows = scanner.nextInt();
+        int rows = 5;
 
         for (int i = 1; i <= rows; i++) {        // For each row
             for (int j = 1; j <= i; j++) {       // Print stars in each row
@@ -15,3 +15,4 @@ public class StarPattern {
         }
     }
 }
+
